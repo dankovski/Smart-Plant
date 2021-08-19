@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Config</title>
+		<meta charset="UTF-8">	
+
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+		
+		
+		<script type="text/javascript" src={{ url_for('static', filename='script_config.js')}}></script>
+
+        <link rel="stylesheet" type="text/css" href={{ url_for('static', filename='style_config.css')}}>
+		
+	</head>
+
+	<body>
+
+	<h1 class="text">Config panel</h1>
+		
+	<div class="items">
+		<h3>Presets panel</h3>
+		<ul>
+			<li><button id="radishBtn" class="button" onclick="presetHandler(radish)">Radish</button></li>
+			<li><button id="beanBtn"  class="button" onclick="presetHandler(bean)">Bean</button></li>
+			<li><button id="papricaBtn"  class="button" onclick="presetHandler(paprica)">Paprica</button></li>
+		<ul>
+	</div>
+
+	<div class="Colorbox">
+	    <h3>Enter Hummidity value</h3>
+	    <input type="number" id="hum" placeholder="Value between 0 and 100" step="0.1" min="0.0" max="100.0">	
+	    <h3>Enter Temperature value</h3>
+	    <input type="number" id="temp" placeholder="Value between 10 and 30" step="0.1" min="10" max="30">
+	    <h3>Enter Lux value</h3>
+	    <input type="number" id="light" placeholder="Value between 0 and 1200" step="0.1" min="0" max="1200">
+
+	    <div id="save_div">
+            <button id="save" onclick="saveHandler()">Save</button>
+        </div>
+
+	</div>
+
+	</body>
+
+</html>

@@ -1,0 +1,9 @@
+[
+ {
+  "hum": "5",
+  "lux": "1000",
+  "pid": false,
+  "start": true,
+  "temp": "24"
+ }
+]

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+
+
+	<title>Main page</title>
+
+
+
+    <script type="text/javascript" src={{ url_for('static', filename='script_main.js')}}></script>
+    <link rel="stylesheet" type="text/css" href={{ url_for('static', filename='style_main.css')}}>
+
+
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+		<nav id="sidebar">
+			<div>
+				<img src="static/rpi.svg" width="150px"></img>
+			</div>
+
+			<ul class="list-unstyled components">
+				<h4>Menu</h4>
+				
+				<li id="config" onclick="choose_config();">
+					<a href="/config" target="frame">Config</a>
+				</li>
+				<li id="charts" onclick="choose_charts();">
+					<a href="/charts" target="frame">Charts</a>
+				</li>
+				<li id="preview" onclick="choose_preview();">
+                    <a href="/preview" target="frame">Preview</a>
+				</li>
+				
+			</ul>
+		</nav>
+
+            <iframe id="frame_view" name="frame" scrolling="yes"></iframe>
+
+
+</body>
+
+</html>

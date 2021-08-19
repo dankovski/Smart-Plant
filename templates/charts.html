@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Charts</title>
+<link rel="stylesheet" type="text/css" href={{ url_for('static', filename='style_charts.css')}}>
+<script type="text/javascript" src={{ url_for('static', filename='script_charts.js')}}></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+</head>
+
+<body onload="init();">
+
+<div class="nav">
+    <div class="menu">
+        <div class="buttons_div">
+            <button id="start" type="button" class="button" onclick="start_work();"><b>Start</b></button>
+            <button id="stop" type="button" class="button" onclick="stop_work();"><b>Stop</b></button>
+        </div>
+
+        <div class="info_text">
+            <div>Sample time: 200<span id="sampletime"></span> ms</div>
+            <div>Max. number of samples: 150<span id="samplenumber"> </span></div>
+        </div>
+
+
+        <div>
+            <div class="text_center">
+                <b>Controller:</b>
+            </div>
+            <div class="buttons_div">            
+                <button id="pid" type="button" class="button"  onclick="start_pid();"><b>PID</b></button>
+                <button id="fuzzy" type="button" class="button"  onclick="start_fuzzy();"><b>FUZZY</b></button>
+            </div>
+
+
+        </div>
+
+
+
+
+    </div>
+</div>
+
+<div class="content">
+    <h1 class="text_center">Light intensity</h1>
+        <div class="chart_content">
+            <canvas id="chart_light" class="chart"></canvas>
+        </div>
+    <h1 class="text_center">Temperature</h1>
+    <div class="chart_content">
+        <canvas id="chart_temp" class="chart"></canvas>
+    </div>
+    <h1 class="text_center">Hummidity</h1>
+    <div class="chart_content">
+        <canvas id="chart_hum" class="chart"></canvas>
+    </div>
+
+
+</div>  
+
+</body>
+
+
+</html>
