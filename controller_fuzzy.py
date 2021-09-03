@@ -15,10 +15,16 @@ class controller_fuzzy:
         self.simulation.input['error_sum'] = self.sum_error
     
         self.previous_e = e
-    
+        
+        #print("\n\ne" + str(e))
+        #print("e_d" + str(e_d))
+        #print("self.sum_error" + str(self.sum_error))
+        
         self.simulation.compute()
         d_out = self.simulation.output['output']
         self.out = self.out + d_out
+        
+        #print("d_out" + str(d_out))
 
         if self.out >100:
             self.out=100
@@ -32,7 +38,6 @@ class controller_fuzzy:
         self.out = 0 
         self.previous_e2 = 0
         self.previous_e = 0
-        self.out = 0
     
     def __init__(self):
         self.previous_e1 = 0
@@ -40,48 +45,51 @@ class controller_fuzzy:
         self.out = 0 
         self.previous_e2 = 0
         self.previous_e = 0
-        self.out = 0
             
-        self.error = ctrl.Antecedent(np.arange(-20, 20, 0.1), 'error')
-        self.error_delta = ctrl.Antecedent(np.arange(-20, 20, 0.1), 'error_delta')
-        self.error_sum = ctrl.Antecedent(np.arange(-32000, 32000, 0.1), 'error_sum')
-        self.output = ctrl.Consequent(np.arange(-2.5, 2.5, 0.01), 'output')
+        error_m = 2.0
+        error_delta_m = 8
+        error_sum_m = 2.0
+        out_m = 1.3
+        
+        self.error = ctrl.Antecedent(np.arange(-10*error_m, 10*error_m, 0.01), 'error')
+        self.error_delta = ctrl.Antecedent(np.arange(-20*error_delta_m, 20*error_delta_m, 0.01), 'error_delta')
+        self.error_sum = ctrl.Antecedent(np.arange(-32000*error_sum_m, 32000*error_sum_m, 0.1), 'error_sum')
+        self.output = ctrl.Consequent(np.arange(-2.0*out_m, 2.0*out_m, 0.01), 'output')
+
+        self.error['DU'] = skfuzzy.trapmf(self.error.universe, [-10*error_m, -10*error_m, -7.5*error_m, -5*error_m])
+        self.error['ŚU'] = skfuzzy.trimf(self.error.universe, [-7.5*error_m, -5*error_m, -2.5*error_m])
+        self.error['MU'] = skfuzzy.trimf(self.error.universe, [-5*error_m, -2.5*error_m, 0])
+        self.error['Z'] = skfuzzy.trimf(self.error.universe, [-2.5*error_m, 0, 2.5*error_m])
+        self.error['MD'] = skfuzzy.trimf(self.error.universe, [0, 2.5*error_m, 5*error_m])
+        self.error['ŚD'] = skfuzzy.trimf(self.error.universe, [2.5*error_m, 5*error_m, 7.5*error_m])
+        self.error['DD'] = skfuzzy.trapmf(self.error.universe, [5*error_m, 7.5*error_m, 10*error_m, 10*error_m])
+
+        self.error_delta['DU'] = skfuzzy.trapmf(self.error_delta.universe, [-20*error_delta_m, -20*error_delta_m, -15*error_delta_m, -10*error_delta_m])
+        self.error_delta['ŚU'] = skfuzzy.trimf(self.error_delta.universe, [-15*error_delta_m, -10*error_delta_m, -5*error_delta_m])
+        self.error_delta['MU'] = skfuzzy.trimf(self.error_delta.universe, [-10*error_delta_m, -5*error_delta_m, 0])
+        self.error_delta['Z'] = skfuzzy.trimf(self.error_delta.universe, [-5*error_delta_m, 0, 5*error_delta_m])
+        self.error_delta['MD'] = skfuzzy.trimf(self.error_delta.universe, [0, 5*error_delta_m, 10*error_delta_m])
+        self.error_delta['ŚD'] = skfuzzy.trimf(self.error_delta.universe, [5*error_delta_m, 10*error_delta_m, 15*error_delta_m])
+        self.error_delta['DD'] = skfuzzy.trapmf(self.error_delta.universe, [10*error_delta_m, 15*error_delta_m, 20*error_delta_m, 20*error_delta_m])
+
+        self.error_sum['DU'] = skfuzzy.trapmf(self.error_sum.universe, [-32000*error_sum_m, -32000*error_sum_m, -24000*error_sum_m, -16000*error_sum_m])
+        self.error_sum['ŚU'] = skfuzzy.trimf(self.error_sum.universe, [-24000*error_sum_m, -16000*error_sum_m, -8000*error_sum_m])
+        self.error_sum['MU'] = skfuzzy.trimf(self.error_sum.universe, [-16000*error_sum_m, -8000*error_sum_m, 0])
+        self.error_sum['Z'] = skfuzzy.trimf(self.error_sum.universe, [-8000*error_sum_m, 0, 8000*error_sum_m])
+        self.error_sum['MD'] = skfuzzy.trimf(self.error_sum.universe, [0, 8000*error_sum_m, 16000*error_sum_m])
+        self.error_sum['ŚD'] = skfuzzy.trimf(self.error_sum.universe, [8000*error_sum_m, 16000*error_sum_m, 24000*error_sum_m])
+        self.error_sum['DD'] = skfuzzy.trapmf(self.error_sum.universe, [16000*error_sum_m, 24000*error_sum_m, 32000*error_sum_m, 32000*error_sum_m])
 
 
-        self.error['DU'] = skfuzzy.trapmf(self.error.universe, [-20, -20, -15, -10])
-        self.error['ŚU'] = skfuzzy.trimf(self.error.universe, [-15, -10, -5])
-        self.error['MU'] = skfuzzy.trimf(self.error.universe, [-10, -5, 0])
-        self.error['Z'] = skfuzzy.trimf(self.error.universe, [-5, 0, 5])
-        self.error['MD'] = skfuzzy.trimf(self.error.universe, [0, 5, 10])
-        self.error['ŚD'] = skfuzzy.trimf(self.error.universe, [5, 10, 15])
-        self.error['DD'] = skfuzzy.trapmf(self.error.universe, [10, 15, 20, 20])
-
-        self.error_delta['DU'] = skfuzzy.trapmf(self.error_delta.universe, [-20, -20, -15, -10])
-        self.error_delta['ŚU'] = skfuzzy.trimf(self.error_delta.universe, [-15, -10, -5])
-        self.error_delta['MU'] = skfuzzy.trimf(self.error_delta.universe, [-10, -5, 0])
-        self.error_delta['Z'] = skfuzzy.trimf(self.error_delta.universe, [-5, 0, 5])
-        self.error_delta['MD'] = skfuzzy.trimf(self.error_delta.universe, [0, 5, 10])
-        self.error_delta['ŚD'] = skfuzzy.trimf(self.error_delta.universe, [5, 10, 15])
-        self.error_delta['DD'] = skfuzzy.trapmf(self.error_delta.universe, [10, 15, 20, 20])
-
-        self.error_sum['DU'] = skfuzzy.trapmf(self.error_sum.universe, [-32000, -32000, -24000, -16000])
-        self.error_sum['ŚU'] = skfuzzy.trimf(self.error_sum.universe, [-24000, -16000, -8000])
-        self.error_sum['MU'] = skfuzzy.trimf(self.error_sum.universe, [-16000, -8000, 0])
-        self.error_sum['Z'] = skfuzzy.trimf(self.error_sum.universe, [-8000, 0, 8000])
-        self.error_sum['MD'] = skfuzzy.trimf(self.error_sum.universe, [0, 8000, 16000])
-        self.error_sum['ŚD'] = skfuzzy.trimf(self.error_sum.universe, [8000, 16000, 24000])
-        self.error_sum['DD'] = skfuzzy.trapmf(self.error_sum.universe, [16000, 24000, 32000, 32000])
-
-
-        self.output['BDU'] = skfuzzy.trapmf(self.output.universe, [-2.5, -2.5, -2.0, -1.5])
-        self.output['DU'] = skfuzzy.trimf(self.output.universe, [-2.0, -1.5, -1.0])
-        self.output['ŚU'] = skfuzzy.trimf(self.output.universe, [-1.5, -1.0, -0.5])
-        self.output['MU'] = skfuzzy.trimf(self.output.universe, [-1.0, -0.5, 0.0])
-        self.output['Z'] = skfuzzy.trimf(self.output.universe, [-0.5, 0.0, 0.5])
-        self.output['MD'] = skfuzzy.trimf(self.output.universe, [0.0, 0.5, 1.0])
-        self.output['ŚD'] = skfuzzy.trimf(self.output.universe, [0.5, 1.0, 1.5])
-        self.output['DD'] = skfuzzy.trimf(self.output.universe, [1.0, 1.5, 2.0])
-        self.output['BDD'] = skfuzzy.trapmf(self.output.universe, [1.5, 2.0, 2.5, 2.5])
+        self.output['BDU'] = skfuzzy.trapmf(self.output.universe, [-2.0*out_m, -2.0*out_m, -1.6*out_m, -1.2*out_m])
+        self.output['DU'] = skfuzzy.trimf(self.output.universe, [-1.6*out_m, -1.2*out_m, -0.8*out_m])
+        self.output['ŚU'] = skfuzzy.trimf(self.output.universe, [-1.2*out_m, -0.8*out_m, -0.4*out_m])
+        self.output['MU'] = skfuzzy.trimf(self.output.universe, [-0.8*out_m, -0.4*out_m, 0.0])
+        self.output['Z'] = skfuzzy.trimf(self.output.universe, [-0.4*out_m, 0.0, 0.4*out_m])
+        self.output['MD'] = skfuzzy.trimf(self.output.universe, [0.0, 0.4*out_m, 0.8*out_m])
+        self.output['ŚD'] = skfuzzy.trimf(self.output.universe, [0.4*out_m, 0.8*out_m, 1.2*out_m])
+        self.output['DD'] = skfuzzy.trimf(self.output.universe, [0.8*out_m, 1.2*out_m, 1.6*out_m])
+        self.output['BDD'] = skfuzzy.trapmf(self.output.universe, [1.2*out_m, 1.6*out_m, 2.0*out_m, 2.0*out_m])
 
         rule0 = ctrl.Rule(antecedent=(
                 

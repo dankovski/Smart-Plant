@@ -1,9 +1,11 @@
 [
  {
-  "hum": "5",
-  "lux": "1000",
-  "pid": false,
+  "dt": "0.2",
+  "hum": "55",
+  "lux": "900",
+  "pid": true,
+  "samples": "150",
   "start": true,
-  "temp": "24"
+  "temp": "21"
  }
 ]

@@ -5,6 +5,7 @@ import os
 from flask import jsonify
 from flask_cors import CORS, cross_origin
 import cv2
+import time
 
 app = Flask(__name__)
 CORS(app)
@@ -35,9 +36,11 @@ def gen():
 def main():
     with open('static/data/config.json','r') as outfile:
         data = json.load(outfile)
-    with open('static/data/config.json','w') as outfile:
+        outfile.close()
         data[0]['pid'] = True
+    with open('static/data/config.json','w') as outfile:
         json.dump(data,outfile, indent = 1)
+        outfile.close()
     return render_template("charts.html")
 
 @app.route("/preview")
@@ -54,37 +57,77 @@ def image():
 @cross_origin()
 def get_data():
     filename = os.path.join(app.static_folder, 'data', 'actual_data.json')
-    with open(filename, 'r') as json_file:
-        data = json.load(json_file)
-    response = jsonify(data)
-    return response
+    try:
+        with open(filename, 'r') as json_file:
+            data = json.load(json_file)
+            json_file.close()
+            response = jsonify(data)
+            return response
+    except:
+        return "error"
+   
+@app.route('/get_historical_data', methods=["GET"])
+@cross_origin()
+def get_historical_data():
+    filename = os.path.join(app.static_folder, 'data', 'historical_data.json')
+    #filename = os.path.join(app.static_folder, 'data', 'test.json')
+    try:
+        with open(filename, 'r') as json_file:
+            data = json.load(json_file)
+            json_file.close()
+            response = jsonify(data)
+            return response
+    except:
+        return "error"
+
+@app.route('/get_compare_data', methods=["GET"])
+@cross_origin()
+def get_compare_data():
+    filename = os.path.join(app.static_folder, 'data', 'actual_data_pid.json')
+    response=[]
+    try:
+        with open(filename, 'r') as json_file:
+            data_pid = json.load(json_file)
+            json_file.close()
+            response.append(data_pid)
+    except:
+        return "error"
+    filename = os.path.join(app.static_folder, 'data', 'actual_data_fuzzy.json')
+    try:
+        with open(filename, 'r') as json_file:
+            data_fuzzy = json.load(json_file)
+            json_file.close()
+            response.append(data_fuzzy)
+    except:
+        return "error"
+    return jsonify(response)
+
 
 @app.route('/reset', methods=["POST"])
 def start():
     with open('static/data/config.json','r') as outfile:
         data = json.load(outfile)
-        
-    with open('static/data/config.json','w') as outfile:
+        outfile.close()
         data[0]['start'] = False
+    with open('static/data/config.json','w') as outfile:
         json.dump(data,outfile, indent = 1)
-
+        outfile.close()
     return "START"
 
 
 @app.route('/set_regulator', methods=["POST"])
 def set_regulator():
     regulator = request.form.get('pid')
-    
     with open('static/data/config.json','r') as outfile:
         data = json.load(outfile)
-        
-    with open('static/data/config.json','w') as outfile:
+        outfile.close()
         if regulator == "true":
             data[0]['pid'] = True
         else:
            data[0]['pid'] = False 
+    with open('static/data/config.json','w') as outfile:
         json.dump(data,outfile, indent = 1)
-        
+        outfile.close()
     return regulator
 
 @app.route('/set_config', methods=["POST"])
@@ -92,18 +135,25 @@ def set_config():
     light = request.form.get('light')
     temp = request.form.get('temp')
     hum = request.form.get('hum')
-    
     with open('static/data/config.json','r') as outfile:
         data = json.load(outfile)
-        
-    with open('static/data/config.json','w') as outfile:
+        outfile.close()
         data[0]['lux'] = light
         data[0]['temp'] = temp
         data[0]['hum'] = hum
+    with open('static/data/config.json','w') as outfile:
         json.dump(data,outfile, indent = 1)
-        
+        outfile.close()
     return "Done"
-        
+
+@app.route('/get_config', methods=["GET"])
+def get_config():
+    with open('static/data/config.json','r') as outfile:
+        data = json.load(outfile)
+        outfile.close()
+    response = jsonify(data)
+    return response
+   
 @app.route('/')
 def main_page():
     return render_template("main.html")  
