@@ -16,32 +16,50 @@
 <div class="nav">
     <div class="menu">
 
-        <div>
-            <button id="button_30s" type="button" class="button" onclick="set_actual();"><b>30 s</b></button>
-            <button id="button_3days" type="button" class="button" onclick="set_historical();"><b>24 h</b></button>
-        </div>
-
-        <div class="buttons_div">
-            <button id="start" type="button" class="button" onclick="start_work();"><b>Start</b></button>
-            <button id="stop" type="button" class="button" onclick="stop_work();"><b>Stop</b></button>
-        </div>
-
-        <div class="info_text">
-            <div>Sample time: <span id="sampletime"></span> s</div>
-            <div>Max. number of samples: <span id="samplenumber"> </span></div>
-        </div>
-
 
         <div>
             <div class="text_center">
-                <b>Controller:</b>
+                <b>Setup:</b>
+            </div>
+            <div class="info_text">
+                <div>Sample time: <span id="sampletime"></span> s</div>
+                <div>Kp: <span id="kp"></span></div>
+                <div>Ki: <span id="ki"></span></div>
+                <div>Kd: <span id="kd"></span></div>
+            </div>
+
+        </div>
+
+        <div>
+            <div class="text_center">
+                <b>Time range:</b>
+            </div>
+
+            <div class="buttons_div">
+                <button id="button_30s" type="button" class="button" onclick="set_actual();"><b>30 s</b></button>
+                <button id="button_3days" type="button" class="button" onclick="set_historical();"><b>24 h</b></button>
+            </div>
+
+        </div>
+
+        <div>
+            <div class="text_center">
+                <b>Control panel:</b>
+            </div>
+            <div class="buttons_div">
+                <button id="start" type="button" class="button" onclick="start_work();"><b>Start</b></button>
+                <button id="stop" type="button" class="button" onclick="stop_work();"><b>Stop</b></button>
+            </div>
+        </div>
+
+        <div>
+            <div class="text_center">
+                <b>Select controller:</b>
             </div>
             <div class="buttons_div">            
                 <button id="pid" type="button" class="button"  onclick="start_pid();"><b>PID</b></button>
                 <button id="fuzzy" type="button" class="button"  onclick="start_fuzzy();"><b>FUZZY</b></button>
             </div>
-
-
         </div>
 
 

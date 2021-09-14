@@ -17,10 +17,6 @@ import i2c_lcd
 lcd = i2c_lcd.lcd()
 
 
-
-lcd.lcd_display_string("Hum:    Tm:  ", 1)
-lcd.lcd_display_string("Lux:", 2)
-
 pi=pigpio.pi()
 pi.set_PWM_dutycycle(13, 0)
 pi.write(12, 1)
@@ -31,6 +27,10 @@ mcp = Adafruit_MCP3008.MCP3008(spi=SPI.SpiDev(0, 0))
 i2c = board.I2C()
 sensor = adafruit_bh1750.BH1750(i2c)
 bmp280 = adafruit_bmp280.Adafruit_BMP280_I2C(i2c)
+
+
+lcd.lcd_display_string("Hum:%.0f%s Tm:%.1fC" %((mcp.read_adc(0)/1024.0)*100.0*(5.0/3.3),"%", bmp280.temperature), 1)
+lcd.lcd_display_string("Lux:%.2f lx   " %(sensor.lux), 2)
 
 pid_controller = controller_pid.pid_controller()
 fuzzy_controller = controller_fuzzy.controller_fuzzy()
@@ -92,7 +92,6 @@ try:
                     desired_temp = float(config[0]['temp'])
                     desired_hum = float(config[0]['hum'])
                     delta_time = float(config[0]['dt'])
-                    samples = float(config[0]['samples'])
             except:
                 print("Can't open config.json")
             
@@ -165,7 +164,7 @@ try:
                 except:
                     print("Can't load actual_data_pid.json")
                     
-                if len(actual_data) == (samples + 2):
+                if len(actual_data) == (152):
                     actual_data.pop()
 
                 try:
@@ -189,7 +188,7 @@ try:
                 except:
                     print("Can't open actual_data_fuzzy.json")
                     
-                if len(actual_data) == (samples + 2):
+                if len(actual_data) == (152):
                     actual_data.pop()
                     
                 try:
@@ -231,7 +230,7 @@ try:
             except:
                 print("Can't open actual_data.json")
                 
-            if len(actual_data) == (samples + 2):
+            if len(actual_data) == (152):
                 actual_data.pop(0)
                 
             try:
@@ -244,8 +243,7 @@ try:
             if datetime.now() > next_update:
                 historical_data = []
                 date = str(datetime.now().day) + "." + str(datetime.now().month)+" "+str(datetime.now().hour)+":00"
-                print("Historical data has been saved at "+ date)
-                
+                lcd.lcd_display_string("Hum:%.0f%s Tm:%.1fC" %(hum,"%", temp), 1)
                 try:
                     with open('static/data/historical_data.json','r') as file:
                         if os.path.getsize('static/data/historical_data.json') > 0:
@@ -274,7 +272,6 @@ try:
             
             #lcd update
             if ( time.time() - lcd_update_time >= 3.0 ):           
-                lcd.lcd_display_string("Hum:%.0f%s Tm:%.1fC" %(hum,"%", temp), 1)
                 lcd.lcd_display_string("Lux:%.2f lx   " %(lux), 2)
                 lcd_update_time = time.time()
                 

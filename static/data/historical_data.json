@@ -1,146 +1,146 @@
 [
  {
-  "Light": 902.78,
-  "Temperature": 21.81,
-  "Humidity": 61.24,
-  "date": "30.8 22:00"
+  "Light": 797.92,
+  "Temperature": 22.6,
+  "Humidity": 56.48,
+  "date": "13.09 16:00"
  },
  {
-  "Light": 906.75,
-  "Temperature": 21.84,
-  "Humidity": 61.21,
-  "date": "30.8 23:00"
+  "Light": 800.92,
+  "Temperature": 22.61,
+  "Humidity": 56.46,
+  "date": "13.09 17:00"
  },
  {
-  "Light": 904.33,
-  "Temperature": 21.76,
-  "Humidity": 61.19,
-  "date": "31.8 0:00"
+  "Light": 803.9,
+  "Temperature": 22.34,
+  "Humidity": 56.41,
+  "date": "13.09 18:00"
  },
  {
-  "Light": 897.92,
-  "Temperature": 21.63,
-  "Humidity": 61.15,
-  "date": "31.8 1:00"
- },
- {
-  "Light": 897.92,
-  "Temperature": 21.69,
-  "Humidity": 61.14,
-  "date": "31.8 2:00"
- },
- {
-  "Light": 897.92,
-  "Temperature": 21.66,
-  "Humidity": 61.12,
-  "date": "31.8 3:00"
- },
- {
-  "Light": 897.92,
-  "Temperature": 21.6,
-  "Humidity": 61.09,
-  "date": "31.8 4:00"
- },
- {
-  "Light": 900.92,
-  "Temperature": 21.61,
-  "Humidity": 61.05,
-  "date": "31.8 5:00"
- },
- {
-  "Light": 904.9,
-  "Temperature": 21.64,
-  "Humidity": 61.05,
-  "date": "31.8 6:00"
- },
- {
-  "Light": 905.2,
-  "Temperature": 21.73,
-  "Humidity": 61.05,
-  "date": "31.8 7:00"
- },
- {
-  "Light": 897.92,
-  "Temperature": 21.86,
-  "Humidity": 61.02,
-  "date": "31.8 8:00"
- },
- {
-  "Light": 902.54,
+  "Light": 801.2,
   "Temperature": 21.93,
-  "Humidity": 60.95,
-  "date": "31.8 9:00"
+  "Humidity": 56.37,
+  "date": "13.09 19:00"
  },
  {
-  "Light": 897.92,
-  "Temperature": 22.07,
-  "Humidity": 60.85,
-  "date": "31.8 10:00"
+  "Light": 799.92,
+  "Temperature": 21.86,
+  "Humidity": 56.34,
+  "date": "14.09 20:00"
  },
  {
-  "Light": 904.17,
-  "Temperature": 22.66,
-  "Humidity": 60.78,
-  "date": "31.8 11:00"
- },
- {
-  "Light": 912.96,
-  "Temperature": 22.7,
-  "Humidity": 60.67,
-  "date": "31.8 12:00"
- },
- {
-  "Light": 904.97,
-  "Temperature": 21.96,
-  "Humidity": 60.65,
-  "date": "31.8 13:00"
- },
- {
-  "Light": 902.34,
+  "Light": 802.54,
   "Temperature": 21.73,
-  "Humidity": 60.57,
-  "date": "31.8 14:00"
+  "Humidity": 56.31,
+  "date": "13.09 21:00"
  },
  {
-  "Light": 897.08,
-  "Temperature": 21.41,
-  "Humidity": 61.11,
-  "date": "31.8 15:00"
+  "Light": 797.78,
+  "Temperature": 21.67,
+  "Humidity": 56.25,
+  "date": "13.09 22:00"
  },
  {
-  "Light": 904.17,
-  "Temperature": 22.15,
-  "Humidity": 60.52,
-  "date": "31.8 16:00"
+  "Light": 803.17,
+  "Temperature": 21.56,
+  "Humidity": 56.21,
+  "date": "13.09 23:00"
  },
  {
-  "Light": 906.67,
-  "Temperature": 22.42,
-  "Humidity": 60.67,
-  "date": "31.8 17:00"
+  "Light": 802.96,
+  "Temperature": 21.32,
+  "Humidity": 56.16,
+  "date": "14.9 0:00"
  },
  {
-  "Light": 902.92,
-  "Temperature": 22.32,
-  "Humidity": 67.62,
-  "date": "31.8 18:00"
- },
- {
-  "Light": 900.83,
-  "Temperature": 22.17,
-  "Humidity": 66.88,
-  "date": "31.8 19:00"
- },
- {
-  "Light": 897.5,
-  "Temperature": 21.62,
-  "Humidity": 66.44,
-  "date": "31.8 20:00"
- },
- {
-  "Light": 900.0,
+  "Light": 801.97,
   "Temperature": 21.26,
-  "Humidity": 65.84,
-  "date": "31.8 21:00"
+  "Humidity": 56.12,
+  "date": "14.9 1:00"
+ },
+ {
+  "Light": 802.34,
+  "Temperature": 21.24,
+  "Humidity": 56.1,
+  "date": "14.9 2:00"
+ },
+ {
+  "Light": 799.68,
+  "Temperature": 21.17,
+  "Humidity": 56.09,
+  "date": "14.9 3:00"
+ },
+ {
+  "Light": 804.17,
+  "Temperature": 21.27,
+  "Humidity": 56.07,
+  "date": "14.9 4:00"
+ },
+ {
+  "Light": 803.67,
+  "Temperature": 21.25,
+  "Humidity": 56.05,
+  "date": "14.9 5:00"
+ },
+ {
+  "Light": 802.92,
+  "Temperature": 21.4,
+  "Humidity": 56.02,
+  "date": "14.9 6:00"
+ },
+ {
+  "Light": 800.83,
+  "Temperature": 21.52,
+  "Humidity": 55.97,
+  "date": "14.9 7:00"
+ },
+ {
+  "Light": 797.5,
+  "Temperature": 21.62,
+  "Humidity": 55.93,
+  "date": "14.9 8:00"
+ },
+ {
+  "Light": 800.0,
+  "Temperature": 22.24,
+  "Humidity": 55.92,
+  "date": "14.9 9:00"
+ },
+ {
+  "Light": 801.25,
+  "Temperature": 23.25,
+  "Humidity": 55.87,
+  "date": "14.9 10:00"
+ },
+ {
+  "Light": 800.83,
+  "Temperature": 23.55,
+  "Humidity": 55.84,
+  "date": "14.9 11:00"
+ },
+ {
+  "Light": 797.92,
+  "Temperature": 23.78,
+  "Humidity": 55.82,
+  "date": "14.9 12:00"
+ },
+ {
+  "Light": 803.75,
+  "Temperature": 23.56,
+  "Humidity": 55.78,
+  "date": "14.9 13:00"
+ },
+ {
+  "Light": 797.5,
+  "Temperature": 23.2,
+  "Humidity": 55.77,
+  "date": "14.9 14:00"
+ },
+ {
+  "Light": 801.67,
+  "Temperature": 23.07,
+  "Humidity": 55.69,
+  "date": "14.9 15:00"
  }
 ]

@@ -148,11 +148,13 @@ def set_config():
 
 @app.route('/get_config', methods=["GET"])
 def get_config():
-    with open('static/data/config.json','r') as outfile:
-        data = json.load(outfile)
-        outfile.close()
-    response = jsonify(data)
-    return response
+    try:
+        with open('static/data/config.json','r') as outfile:
+            data = json.load(outfile)
+            outfile.close()
+            return jsonify(data)
+    except:
+        return "Failed"
    
 @app.route('/')
 def main_page():

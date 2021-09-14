@@ -1,17 +1,27 @@
 
 class pid_controller:
     def __init__(self):
-        #self.kd = 0.03
-        #self.kp = 0.03
-        #self.ki = 0.05
-        
+        #default values
         self.kd = 0.01
         self.kp = 0.013
         self.ki = 0.04
+        
         self.sum_e = 0
         self.previous_e = 0
 
     def reset(self):
+                    #reading config
+        try:
+            with open('static/data/config.json','r') as file:
+                config = json.load(file)
+                file.close()
+                self.kd = float(config[0]['kd'])
+                self.kp = float(config[0]['kp'])
+                self.ki = float(config[0]['ki'])
+        except:
+            print("Can't open config.json")
+        
+        
         self.sum_e = 0
         self.previous_e = 0
 

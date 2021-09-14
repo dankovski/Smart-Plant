@@ -220,7 +220,6 @@ function newHistoricalChart(xData,yData,xlabel,ylabel, context){
         return chart
     }
 
-
 function loadData() {
 
 if(historical){
@@ -575,8 +574,12 @@ function load_config(){
             desired_temp=parseFloat(responseJSON[0]['temp'])
             var sample_time = document.getElementById("sampletime");
             sample_time.innerText = parseFloat(responseJSON[0]['dt'])
-            var samples = document.getElementById("samplenumber");
-            samples.innerText = parseFloat(responseJSON[0]['samples'])
+            var kp = document.getElementById("kp");
+            kp.innerText = parseFloat(responseJSON[0]['kp'])
+            var ki = document.getElementById("ki");
+            ki.innerText = parseFloat(responseJSON[0]['ki'])
+            var kd = document.getElementById("kd");
+            kd.innerText = parseFloat(responseJSON[0]['kd'])
 
 
     },

@@ -1,821 +1,1059 @@
 [
  {
-  "Light": 10.42,
-  "Temperature": 21.31,
-  "Humidity": 65.55,
-  "t": 0.0,
-  "pwm": 0.0
+  "Light": 800.0,
+  "Temperature": 23.16,
+  "Humidity": 55.04,
+  "t": 894.2,
+  "pwm": 63.61749999999943
  },
  {
-  "Light": 85.83,
-  "Temperature": 21.37,
-  "Humidity": 65.55,
-  "t": 0.2,
-  "pwm": 24.063333333333336
+  "Light": 798.75,
+  "Temperature": 23.15,
+  "Humidity": 55.04,
+  "t": 894.4,
+  "pwm": 63.648749999999424
  },
  {
-  "Light": 265.0,
-  "Temperature": 21.37,
-  "Humidity": 65.55,
-  "t": 0.4,
-  "pwm": 26.606666666666666
+  "Light": 798.75,
+  "Temperature": 23.16,
+  "Humidity": 55.04,
+  "t": 894.6,
+  "pwm": 63.65624999999943
  },
  {
-  "Light": 277.92,
-  "Temperature": 21.38,
-  "Humidity": 65.55,
-  "t": 0.6,
-  "pwm": 31.747916666666665
+  "Light": 801.67,
+  "Temperature": 23.16,
+  "Humidity": 55.04,
+  "t": 894.8,
+  "pwm": 63.599166666666086
  },
  {
-  "Light": 340.83,
-  "Temperature": 21.39,
-  "Humidity": 65.55,
-  "t": 0.8,
-  "pwm": 35.30333333333333
+  "Light": 798.75,
+  "Temperature": 23.15,
+  "Humidity": 55.04,
+  "t": 895.0,
+  "pwm": 63.65874999999942
  },
  {
-  "Light": 359.17,
-  "Temperature": 21.38,
-  "Humidity": 65.55,
-  "t": 1.0,
-  "pwm": 39.48083333333334
+  "Light": 799.17,
+  "Temperature": 23.16,
+  "Humidity": 55.04,
+  "t": 895.2,
+  "pwm": 63.65333333333276
  },
  {
-  "Light": 424.17,
-  "Temperature": 21.38,
-  "Humidity": 65.55,
-  "t": 1.2,
-  "pwm": 42.34916666666666
+  "Light": 800.83,
+  "Temperature": 23.15,
+  "Humidity": 55.19,
+  "t": 895.4,
+  "pwm": 63.62249999999943
  },
  {
-  "Light": 460.83,
-  "Temperature": 21.38,
-  "Humidity": 65.4,
-  "t": 1.4,
-  "pwm": 45.44250000000001
+  "Light": 798.75,
+  "Temperature": 23.15,
+  "Humidity": 55.04,
+  "t": 895.6,
+  "pwm": 63.66708333333276
  },
  {
-  "Light": 480.0,
-  "Temperature": 21.38,
-  "Humidity": 65.55,
-  "t": 1.6,
-  "pwm": 48.58833333333333
+  "Light": 800.0,
+  "Temperature": 23.15,
+  "Humidity": 55.04,
+  "t": 895.8,
+  "pwm": 63.644166666666095
  },
  {
-  "Light": 531.67,
-  "Temperature": 21.35,
-  "Humidity": 65.55,
-  "t": 1.8,
-  "pwm": 50.79833333333333
+  "Light": 800.83,
+  "Temperature": 23.15,
+  "Humidity": 55.04,
+  "t": 896.0,
+  "pwm": 63.627499999999436
  },
  {
-  "Light": 541.25,
-  "Temperature": 21.39,
-  "Humidity": 65.55,
-  "t": 2.0,
-  "pwm": 53.62791666666667
+  "Light": 798.33,
+  "Temperature": 23.15,
+  "Humidity": 55.04,
+  "t": 896.2,
+  "pwm": 63.67999999999944
  },
  {
-  "Light": 580.83,
-  "Temperature": 21.39,
-  "Humidity": 65.55,
-  "t": 2.2,
-  "pwm": 55.60666666666667
+  "Light": 801.67,
+  "Temperature": 23.15,
+  "Humidity": 55.04,
+  "t": 896.4,
+  "pwm": 63.611666666666096
  },
  {
-  "Light": 607.92,
-  "Temperature": 21.39,
-  "Humidity": 65.55,
-  "t": 2.4,
-  "pwm": 57.61625
+  "Light": 798.33,
+  "Temperature": 23.15,
+  "Humidity": 55.04,
+  "t": 896.6,
+  "pwm": 63.6816666666661
  },
  {
-  "Light": 621.25,
-  "Temperature": 21.39,
-  "Humidity": 65.55,
-  "t": 2.6,
-  "pwm": 59.70041666666667
+  "Light": 800.0,
+  "Temperature": 23.15,
+  "Humidity": 55.19,
+  "t": 896.8,
+  "pwm": 63.64999999999944
  },
  {
-  "Light": 653.75,
-  "Temperature": 21.39,
-  "Humidity": 65.55,
-  "t": 2.8,
-  "pwm": 61.20958333333334
+  "Light": 802.08,
+  "Temperature": 23.16,
+  "Humidity": 55.04,
+  "t": 897.0,
+  "pwm": 63.605416666666095
  },
  {
-  "Light": 660.83,
-  "Temperature": 21.39,
-  "Humidity": 65.55,
-  "t": 3.0,
-  "pwm": 63.08166666666667
+  "Light": 798.33,
+  "Temperature": 23.15,
+  "Humidity": 55.04,
+  "t": 897.2,
+  "pwm": 63.679166666666106
  },
  {
-  "Light": 687.08,
-  "Temperature": 21.41,
-  "Humidity": 65.55,
-  "t": 3.2,
-  "pwm": 64.40541666666667
+  "Light": 798.33,
+  "Temperature": 23.16,
+  "Humidity": 55.04,
+  "t": 897.4,
+  "pwm": 63.684999999999434
  },
  {
-  "Light": 691.25,
-  "Temperature": 21.4,
-  "Humidity": 65.55,
-  "t": 3.4,
-  "pwm": 66.06541666666666
+  "Light": 800.83,
+  "Temperature": 23.15,
+  "Humidity": 55.04,
+  "t": 897.6,
+  "pwm": 63.64083333333277
  },
  {
-  "Light": 716.25,
-  "Temperature": 21.4,
-  "Humidity": 65.55,
-  "t": 3.6,
-  "pwm": 67.16875000000002
+  "Light": 798.33,
+  "Temperature": 23.16,
+  "Humidity": 55.04,
+  "t": 897.8,
+  "pwm": 63.69666666666611
  },
  {
-  "Light": 735.0,
-  "Temperature": 21.39,
-  "Humidity": 65.55,
-  "t": 3.8,
-  "pwm": 68.25750000000001
+  "Light": 800.0,
+  "Temperature": 23.15,
+  "Humidity": 55.04,
+  "t": 898.0,
+  "pwm": 63.66666666666611
  },
  {
-  "Light": 741.25,
-  "Temperature": 21.39,
-  "Humidity": 65.55,
-  "t": 4.0,
-  "pwm": 69.47125
+  "Light": 798.33,
+  "Temperature": 23.15,
+  "Humidity": 55.04,
+  "t": 898.2,
+  "pwm": 63.70833333333278
  },
  {
-  "Light": 761.67,
-  "Temperature": 21.4,
-  "Humidity": 65.55,
-  "t": 4.2,
-  "pwm": 70.28416666666668
+  "Light": 798.33,
+  "Temperature": 23.15,
+  "Humidity": 55.04,
+  "t": 898.4,
+  "pwm": 63.71833333333279
  },
  {
-  "Light": 765.83,
-  "Temperature": 21.39,
-  "Humidity": 65.55,
-  "t": 4.4,
-  "pwm": 71.33583333333334
+  "Light": 801.25,
+  "Temperature": 23.15,
+  "Humidity": 55.04,
+  "t": 898.6,
+  "pwm": 63.66458333333278
  },
  {
-  "Light": 777.5,
-  "Temperature": 21.4,
-  "Humidity": 65.55,
-  "t": 4.6,
-  "pwm": 72.14916666666669
+  "Light": 798.33,
+  "Temperature": 23.15,
+  "Humidity": 55.04,
+  "t": 898.8,
+  "pwm": 63.72749999999945
  },
  {
-  "Light": 779.17,
-  "Temperature": 21.39,
-  "Humidity": 65.55,
-  "t": 4.8,
-  "pwm": 73.11416666666666
+  "Light": 799.17,
+  "Temperature": 23.15,
+  "Humidity": 55.04,
+  "t": 899.0,
+  "pwm": 63.71583333333278
  },
  {
-  "Light": 795.0,
-  "Temperature": 21.39,
-  "Humidity": 65.55,
-  "t": 5.0,
-  "pwm": 73.72
+  "Light": 800.42,
+  "Temperature": 23.15,
+  "Humidity": 55.04,
+  "t": 899.2,
+  "pwm": 63.69541666666611
  },
  {
-  "Light": 805.83,
-  "Temperature": 21.39,
-  "Humidity": 65.55,
-  "t": 5.2,
-  "pwm": 74.3425
+  "Light": 798.33,
+  "Temperature": 23.15,
+  "Humidity": 55.04,
+  "t": 899.4,
+  "pwm": 63.74249999999946
  },
  {
-  "Light": 808.75,
-  "Temperature": 21.39,
-  "Humidity": 65.55,
-  "t": 5.4,
-  "pwm": 75.05041666666668
+  "Light": 800.0,
+  "Temperature": 23.16,
+  "Humidity": 55.04,
+  "t": 899.6,
+  "pwm": 63.71333333333279
  },
  {
-  "Light": 820.42,
-  "Temperature": 21.39,
-  "Humidity": 65.55,
-  "t": 5.6,
-  "pwm": 75.51791666666666
+  "Light": 800.42,
+  "Temperature": 23.16,
+  "Humidity": 55.04,
+  "t": 899.8,
+  "pwm": 63.707083333332776
  },
  {
-  "Light": 822.08,
-  "Temperature": 21.39,
-  "Humidity": 65.55,
-  "t": 5.8,
-  "pwm": 76.13958333333335
+  "Light": 798.33,
+  "Temperature": 23.15,
+  "Humidity": 55.04,
+  "t": 900.0,
+  "pwm": 63.75249999999945
  },
  {
-  "Light": 834.58,
-  "Temperature": 21.39,
-  "Humidity": 65.55,
-  "t": 6.0,
-  "pwm": 76.47874999999999
+  "Light": 800.42,
+  "Temperature": 23.16,
+  "Humidity": 55.04,
+  "t": 900.2,
+  "pwm": 63.71374999999944
  },
  {
-  "Light": 840.83,
-  "Temperature": 21.4,
-  "Humidity": 65.55,
-  "t": 6.2,
-  "pwm": 76.88333333333331
+  "Light": 797.92,
+  "Temperature": 23.16,
+  "Humidity": 55.04,
+  "t": 900.4,
+  "pwm": 63.77208333333277
  },
  {
-  "Light": 841.25,
-  "Temperature": 21.39,
-  "Humidity": 65.55,
-  "t": 6.4,
-  "pwm": 77.35958333333333
+  "Light": 800.0,
+  "Temperature": 23.16,
+  "Humidity": 55.19,
+  "t": 900.6,
+  "pwm": 63.73583333333277
  },
  {
-  "Light": 849.17,
-  "Temperature": 21.4,
-  "Humidity": 65.55,
-  "t": 6.6,
-  "pwm": 77.64833333333333
+  "Light": 800.42,
+  "Temperature": 23.16,
+  "Humidity": 55.04,
+  "t": 900.8,
+  "pwm": 63.73041666666611
  },
  {
-  "Light": 849.58,
-  "Temperature": 21.4,
-  "Humidity": 65.55,
-  "t": 6.8,
-  "pwm": 78.06125
+  "Light": 798.33,
+  "Temperature": 23.16,
+  "Humidity": 55.19,
+  "t": 901.0,
+  "pwm": 63.775833333332784
  },
  {
-  "Light": 855.83,
-  "Temperature": 21.4,
-  "Humidity": 65.7,
-  "t": 7.0,
-  "pwm": 78.32166666666666
+  "Light": 800.0,
+  "Temperature": 23.16,
+  "Humidity": 55.04,
+  "t": 901.2,
+  "pwm": 63.746666666666115
  },
  {
-  "Light": 858.33,
-  "Temperature": 21.4,
-  "Humidity": 65.55,
-  "t": 7.2,
-  "pwm": 78.63
+  "Light": 797.92,
+  "Temperature": 23.14,
+  "Humidity": 54.89,
+  "t": 901.4,
+  "pwm": 63.79791666666611
  },
  {
-  "Light": 859.17,
-  "Temperature": 21.4,
-  "Humidity": 65.7,
-  "t": 7.4,
-  "pwm": 78.94916666666666
+  "Light": 800.0,
+  "Temperature": 23.15,
+  "Humidity": 55.04,
+  "t": 901.6,
+  "pwm": 63.76249999999944
  },
  {
-  "Light": 866.67,
-  "Temperature": 21.4,
-  "Humidity": 65.55,
-  "t": 7.6,
-  "pwm": 79.105
+  "Light": 800.0,
+  "Temperature": 23.16,
+  "Humidity": 54.75,
+  "t": 901.8,
+  "pwm": 63.76666666666611
  },
  {
-  "Light": 867.08,
-  "Temperature": 21.39,
-  "Humidity": 65.55,
-  "t": 7.8,
-  "pwm": 79.37708333333332
+  "Light": 798.33,
+  "Temperature": 23.15,
+  "Humidity": 55.04,
+  "t": 902.0,
+  "pwm": 63.80499999999944
  },
  {
-  "Light": 871.67,
-  "Temperature": 21.4,
-  "Humidity": 65.55,
-  "t": 8.0,
-  "pwm": 79.53583333333333
+  "Light": 800.0,
+  "Temperature": 23.16,
+  "Humidity": 55.04,
+  "t": 902.2,
+  "pwm": 63.77666666666611
  },
  {
-  "Light": 871.67,
-  "Temperature": 21.39,
-  "Humidity": 65.55,
-  "t": 8.2,
-  "pwm": 79.77166666666668
+  "Light": 797.92,
+  "Temperature": 23.15,
+  "Humidity": 55.04,
+  "t": 902.4,
+  "pwm": 63.827916666666106
  },
  {
-  "Light": 874.17,
-  "Temperature": 21.4,
-  "Humidity": 65.55,
-  "t": 8.4,
-  "pwm": 79.94083333333334
+  "Light": 800.0,
+  "Temperature": 23.16,
+  "Humidity": 55.04,
+  "t": 902.6,
+  "pwm": 63.792499999999436
  },
  {
-  "Light": 873.75,
-  "Temperature": 21.39,
-  "Humidity": 65.55,
-  "t": 8.6,
-  "pwm": 80.16208333333334
+  "Light": 800.42,
+  "Temperature": 23.16,
+  "Humidity": 55.04,
+  "t": 902.8,
+  "pwm": 63.787083333332774
  },
  {
-  "Light": 876.67,
-  "Temperature": 21.4,
-  "Humidity": 65.55,
-  "t": 8.8,
-  "pwm": 80.30416666666667
+  "Light": 798.33,
+  "Temperature": 23.15,
+  "Humidity": 54.89,
+  "t": 903.0,
+  "pwm": 63.83249999999944
  },
  {
-  "Light": 880.42,
-  "Temperature": 21.38,
-  "Humidity": 65.7,
-  "t": 9.0,
-  "pwm": 80.41041666666669
+  "Light": 800.0,
+  "Temperature": 23.15,
+  "Humidity": 54.89,
+  "t": 903.2,
+  "pwm": 63.80333333333277
  },
  {
-  "Light": 878.33,
-  "Temperature": 21.39,
-  "Humidity": 65.55,
-  "t": 9.2,
-  "pwm": 80.62250000000002
+  "Light": 797.92,
+  "Temperature": 23.16,
+  "Humidity": 55.04,
+  "t": 903.4,
+  "pwm": 63.85458333333277
  },
  {
-  "Light": 878.75,
-  "Temperature": 21.39,
-  "Humidity": 65.55,
-  "t": 9.4,
-  "pwm": 80.78208333333335
+  "Light": 797.92,
+  "Temperature": 23.16,
+  "Humidity": 55.04,
+  "t": 903.6,
+  "pwm": 63.867083333332765
  },
  {
-  "Light": 880.42,
-  "Temperature": 21.39,
-  "Humidity": 65.7,
-  "t": 9.6,
-  "pwm": 80.91458333333335
+  "Light": 800.0,
+  "Temperature": 23.16,
+  "Humidity": 55.04,
+  "t": 903.8,
+  "pwm": 63.835833333332765
  },
  {
-  "Light": 881.67,
-  "Temperature": 21.39,
-  "Humidity": 65.55,
-  "t": 9.8,
-  "pwm": 81.04583333333335
+  "Light": 798.33,
+  "Temperature": 23.16,
+  "Humidity": 55.04,
+  "t": 904.0,
+  "pwm": 63.878333333332776
  },
  {
-  "Light": 884.17,
-  "Temperature": 21.39,
-  "Humidity": 65.55,
-  "t": 10.0,
-  "pwm": 81.13750000000003
+  "Light": 800.0,
+  "Temperature": 23.15,
+  "Humidity": 55.19,
+  "t": 904.2,
+  "pwm": 63.84999999999945
  },
  {
-  "Light": 882.92,
-  "Temperature": 21.39,
-  "Humidity": 65.55,
-  "t": 10.2,
-  "pwm": 81.2979166666667
+  "Light": 797.92,
+  "Temperature": 23.16,
+  "Humidity": 55.19,
+  "t": 904.4,
+  "pwm": 63.901249999999436
  },
  {
-  "Light": 888.33,
-  "Temperature": 21.39,
-  "Humidity": 65.55,
-  "t": 10.4,
-  "pwm": 81.30750000000002
+  "Light": 798.33,
+  "Temperature": 23.16,
+  "Humidity": 55.04,
+  "t": 904.6,
+  "pwm": 63.90416666666611
  },
  {
-  "Light": 887.5,
-  "Temperature": 21.39,
-  "Humidity": 65.55,
-  "t": 10.6,
-  "pwm": 81.43083333333335
+  "Light": 800.42,
+  "Temperature": 23.15,
+  "Humidity": 55.04,
+  "t": 904.8,
+  "pwm": 63.8704166666661
  },
  {
-  "Light": 887.5,
-  "Temperature": 21.39,
-  "Humidity": 65.7,
-  "t": 10.8,
-  "pwm": 81.52916666666668
+  "Light": 797.92,
+  "Temperature": 23.16,
+  "Humidity": 55.04,
+  "t": 905.0,
+  "pwm": 63.92874999999944
  },
  {
-  "Light": 889.58,
-  "Temperature": 21.39,
-  "Humidity": 65.7,
-  "t": 11.0,
-  "pwm": 81.58125000000003
+  "Light": 802.5,
+  "Temperature": 23.16,
+  "Humidity": 55.04,
+  "t": 905.2,
+  "pwm": 63.83499999999943
  },
  {
-  "Light": 892.5,
-  "Temperature": 21.4,
-  "Humidity": 65.7,
-  "t": 11.2,
-  "pwm": 81.60166666666669
+  "Light": 798.33,
+  "Temperature": 23.15,
+  "Humidity": 54.89,
+  "t": 905.4,
+  "pwm": 63.91999999999943
  },
  {
-  "Light": 894.17,
-  "Temperature": 21.39,
-  "Humidity": 65.55,
-  "t": 11.4,
-  "pwm": 81.62916666666669
+  "Light": 797.92,
+  "Temperature": 23.16,
+  "Humidity": 54.89,
+  "t": 905.6,
+  "pwm": 63.93458333333277
  },
  {
-  "Light": 892.08,
-  "Temperature": 21.4,
-  "Humidity": 65.7,
-  "t": 11.6,
-  "pwm": 81.72708333333335
+  "Light": 803.75,
+  "Temperature": 23.15,
+  "Humidity": 55.04,
+  "t": 905.8,
+  "pwm": 63.816249999999435
  },
  {
-  "Light": 892.5,
-  "Temperature": 21.4,
-  "Humidity": 65.55,
-  "t": 11.8,
-  "pwm": 81.77666666666669
+  "Light": 803.75,
+  "Temperature": 23.16,
+  "Humidity": 54.89,
+  "t": 906.0,
+  "pwm": 63.797916666666104
  },
  {
-  "Light": 892.08,
-  "Temperature": 21.39,
-  "Humidity": 65.7,
-  "t": 12.0,
-  "pwm": 81.84708333333334
+  "Light": 797.92,
+  "Temperature": 23.15,
+  "Humidity": 55.04,
+  "t": 906.2,
+  "pwm": 63.90208333333276
  },
  {
-  "Light": 892.08,
-  "Temperature": 21.39,
-  "Humidity": 65.55,
-  "t": 12.2,
-  "pwm": 81.90958333333334
+  "Light": 800.0,
+  "Temperature": 23.15,
+  "Humidity": 54.89,
+  "t": 906.4,
+  "pwm": 63.8591666666661
  },
  {
-  "Light": 894.17,
-  "Temperature": 21.4,
-  "Humidity": 65.55,
-  "t": 12.4,
-  "pwm": 81.92500000000003
+  "Light": 800.42,
+  "Temperature": 23.16,
+  "Humidity": 55.04,
+  "t": 906.6,
+  "pwm": 63.85374999999942
  },
  {
-  "Light": 894.17,
-  "Temperature": 21.4,
-  "Humidity": 65.55,
-  "t": 12.6,
-  "pwm": 81.97583333333336
+  "Light": 797.92,
+  "Temperature": 23.15,
+  "Humidity": 55.04,
+  "t": 906.8,
+  "pwm": 63.90874999999942
  },
  {
-  "Light": 897.08,
-  "Temperature": 21.41,
-  "Humidity": 65.7,
-  "t": 12.8,
-  "pwm": 81.95541666666668
+  "Light": 800.0,
+  "Temperature": 23.16,
+  "Humidity": 55.19,
+  "t": 907.0,
+  "pwm": 63.87249999999942
  },
  {
-  "Light": 895.83,
-  "Temperature": 21.4,
-  "Humidity": 65.7,
-  "t": 13.0,
-  "pwm": 82.01333333333334
+  "Light": 797.92,
+  "Temperature": 23.15,
+  "Humidity": 55.04,
+  "t": 907.2,
+  "pwm": 63.92458333333276
  },
  {
-  "Light": 898.75,
-  "Temperature": 21.4,
-  "Humidity": 65.7,
-  "t": 13.2,
-  "pwm": 81.97708333333335
+  "Light": 800.0,
+  "Temperature": 23.15,
+  "Humidity": 54.89,
+  "t": 907.4,
+  "pwm": 63.88916666666609
  },
  {
-  "Light": 897.5,
-  "Temperature": 21.41,
-  "Humidity": 65.7,
-  "t": 13.4,
-  "pwm": 82.02166666666668
+  "Light": 800.83,
+  "Temperature": 23.16,
+  "Humidity": 54.89,
+  "t": 907.6,
+  "pwm": 63.87416666666609
  },
  {
-  "Light": 898.75,
-  "Temperature": 21.4,
-  "Humidity": 65.7,
-  "t": 13.6,
-  "pwm": 82.01041666666667
+  "Light": 798.75,
+  "Temperature": 23.15,
+  "Humidity": 55.04,
+  "t": 907.8,
+  "pwm": 63.91708333333276
  },
  {
-  "Light": 896.67,
-  "Temperature": 21.4,
-  "Humidity": 65.7,
-  "t": 13.8,
-  "pwm": 82.07083333333335
+  "Light": 800.0,
+  "Temperature": 23.16,
+  "Humidity": 55.04,
+  "t": 908.0,
+  "pwm": 63.894166666666095
  },
  {
-  "Light": 898.75,
-  "Temperature": 21.42,
-  "Humidity": 65.7,
-  "t": 14.0,
-  "pwm": 82.0454166666667
+  "Light": 797.92,
+  "Temperature": 23.15,
+  "Humidity": 54.89,
+  "t": 908.2,
+  "pwm": 63.94458333333276
  },
  {
-  "Light": 896.67,
-  "Temperature": 21.41,
-  "Humidity": 65.7,
-  "t": 14.2,
-  "pwm": 82.10750000000002
+  "Light": 800.0,
+  "Temperature": 23.16,
+  "Humidity": 55.04,
+  "t": 908.4,
+  "pwm": 63.90916666666609
  },
  {
-  "Light": 898.33,
-  "Temperature": 21.41,
-  "Humidity": 65.7,
-  "t": 14.4,
-  "pwm": 82.09166666666668
+  "Light": 800.0,
+  "Temperature": 23.15,
+  "Humidity": 55.04,
+  "t": 908.6,
+  "pwm": 63.91333333333276
  },
  {
-  "Light": 896.67,
-  "Temperature": 21.41,
-  "Humidity": 65.7,
-  "t": 14.6,
-  "pwm": 82.14666666666669
+  "Light": 798.75,
+  "Temperature": 23.16,
+  "Humidity": 54.89,
+  "t": 908.8,
+  "pwm": 63.942083333332754
  },
  {
-  "Light": 898.33,
-  "Temperature": 21.41,
-  "Humidity": 65.7,
-  "t": 14.8,
-  "pwm": 82.13166666666667
+  "Light": 803.33,
+  "Temperature": 23.16,
+  "Humidity": 54.89,
+  "t": 909.0,
+  "pwm": 63.84416666666609
  },
  {
-  "Light": 897.08,
-  "Temperature": 21.41,
-  "Humidity": 65.7,
-  "t": 15.0,
-  "pwm": 82.17708333333334
+  "Light": 798.33,
+  "Temperature": 23.16,
+  "Humidity": 54.89,
+  "t": 909.2,
+  "pwm": 63.941666666666094
  },
  {
-  "Light": 898.75,
-  "Temperature": 21.41,
-  "Humidity": 65.7,
-  "t": 15.2,
-  "pwm": 82.15958333333334
+  "Light": 800.42,
+  "Temperature": 23.15,
+  "Humidity": 55.04,
+  "t": 909.4,
+  "pwm": 63.89708333333276
  },
  {
-  "Light": 897.08,
-  "Temperature": 21.4,
-  "Humidity": 65.7,
-  "t": 15.4,
-  "pwm": 82.21125
+  "Light": 801.67,
+  "Temperature": 23.15,
+  "Humidity": 55.04,
+  "t": 909.6,
+  "pwm": 63.869166666666096
  },
  {
-  "Light": 898.75,
-  "Temperature": 21.42,
-  "Humidity": 65.55,
-  "t": 15.6,
-  "pwm": 82.19291666666668
+  "Light": 798.75,
+  "Temperature": 23.15,
+  "Humidity": 55.04,
+  "t": 909.8,
+  "pwm": 63.92541666666609
  },
  {
-  "Light": 897.08,
-  "Temperature": 21.42,
-  "Humidity": 65.7,
-  "t": 15.8,
-  "pwm": 82.24458333333332
+  "Light": 802.08,
+  "Temperature": 23.16,
+  "Humidity": 55.04,
+  "t": 910.0,
+  "pwm": 63.85291666666608
  },
  {
-  "Light": 899.17,
-  "Temperature": 21.41,
-  "Humidity": 65.7,
-  "t": 16.0,
-  "pwm": 82.21666666666668
+  "Light": 800.42,
+  "Temperature": 23.15,
+  "Humidity": 55.04,
+  "t": 910.2,
+  "pwm": 63.88124999999942
  },
  {
-  "Light": 897.08,
-  "Temperature": 21.41,
-  "Humidity": 65.7,
-  "t": 16.2,
-  "pwm": 82.27541666666666
+  "Light": 798.75,
+  "Temperature": 23.16,
+  "Humidity": 55.04,
+  "t": 910.4,
+  "pwm": 63.91291666666609
  },
  {
-  "Light": 898.75,
-  "Temperature": 21.41,
-  "Humidity": 65.7,
-  "t": 16.4,
-  "pwm": 82.25625000000001
+  "Light": 802.5,
+  "Temperature": 23.16,
+  "Humidity": 55.19,
+  "t": 910.6,
+  "pwm": 63.83333333333276
  },
  {
-  "Light": 897.08,
-  "Temperature": 21.41,
-  "Humidity": 65.55,
-  "t": 16.6,
-  "pwm": 82.30791666666666
+  "Light": 800.0,
+  "Temperature": 23.15,
+  "Humidity": 55.04,
+  "t": 910.8,
+  "pwm": 63.87833333333276
  },
  {
-  "Light": 899.17,
-  "Temperature": 21.42,
-  "Humidity": 65.55,
-  "t": 16.8,
-  "pwm": 82.28000000000002
+  "Light": 800.0,
+  "Temperature": 23.16,
+  "Humidity": 55.19,
+  "t": 911.0,
+  "pwm": 63.87333333333276
  },
  {
-  "Light": 897.08,
-  "Temperature": 21.42,
-  "Humidity": 65.55,
-  "t": 17.0,
-  "pwm": 82.33874999999999
+  "Light": 798.33,
+  "Temperature": 23.16,
+  "Humidity": 55.19,
+  "t": 911.2,
+  "pwm": 63.911666666666086
  },
  {
-  "Light": 899.17,
-  "Temperature": 21.41,
-  "Humidity": 65.55,
-  "t": 17.2,
-  "pwm": 82.31000000000002
+  "Light": 798.33,
+  "Temperature": 23.15,
+  "Humidity": 55.04,
+  "t": 911.4,
+  "pwm": 63.921666666666106
  },
  {
-  "Light": 897.08,
-  "Temperature": 21.41,
-  "Humidity": 65.7,
-  "t": 17.4,
-  "pwm": 82.36874999999998
+  "Light": 804.58,
+  "Temperature": 23.16,
+  "Humidity": 55.04,
+  "t": 911.6,
+  "pwm": 63.79124999999943
  },
  {
-  "Light": 900.83,
-  "Temperature": 21.42,
-  "Humidity": 65.55,
-  "t": 17.6,
-  "pwm": 82.30166666666666
+  "Light": 800.0,
+  "Temperature": 23.15,
+  "Humidity": 55.04,
+  "t": 911.8,
+  "pwm": 63.872499999999434
  },
  {
-  "Light": 898.33,
-  "Temperature": 21.42,
-  "Humidity": 65.7,
-  "t": 17.8,
-  "pwm": 82.35999999999997
+  "Light": 800.42,
+  "Temperature": 23.15,
+  "Humidity": 55.04,
+  "t": 912.0,
+  "pwm": 63.85374999999942
  },
  {
-  "Light": 903.75,
-  "Temperature": 21.42,
-  "Humidity": 65.55,
-  "t": 18.0,
-  "pwm": 82.24374999999999
+  "Light": 800.0,
+  "Temperature": 23.15,
+  "Humidity": 55.04,
+  "t": 912.2,
+  "pwm": 63.86083333333276
  },
  {
-  "Light": 899.17,
-  "Temperature": 21.42,
-  "Humidity": 65.7,
-  "t": 18.2,
-  "pwm": 82.33000000000001
+  "Light": 798.75,
+  "Temperature": 23.16,
+  "Humidity": 55.04,
+  "t": 912.4,
+  "pwm": 63.888749999999426
  },
  {
-  "Light": 899.17,
-  "Temperature": 21.43,
-  "Humidity": 65.55,
-  "t": 18.4,
-  "pwm": 82.3275
+  "Light": 800.0,
+  "Temperature": 23.16,
+  "Humidity": 55.04,
+  "t": 912.6,
+  "pwm": 63.86749999999943
  },
  {
-  "Light": 898.75,
-  "Temperature": 21.43,
-  "Humidity": 65.55,
-  "t": 18.6,
-  "pwm": 82.34374999999999
+  "Light": 797.92,
+  "Temperature": 23.16,
+  "Humidity": 55.04,
+  "t": 912.8,
+  "pwm": 63.91791666666609
  },
  {
-  "Light": 897.92,
-  "Temperature": 21.43,
-  "Humidity": 65.7,
-  "t": 18.8,
-  "pwm": 82.37208333333334
+  "Light": 800.0,
+  "Temperature": 23.16,
+  "Humidity": 55.04,
+  "t": 913.0,
+  "pwm": 63.88249999999942
  },
  {
-  "Light": 900.42,
-  "Temperature": 21.42,
-  "Humidity": 65.7,
-  "t": 19.0,
-  "pwm": 82.32958333333335
+  "Light": 800.0,
+  "Temperature": 23.15,
+  "Humidity": 55.04,
+  "t": 913.2,
+  "pwm": 63.88666666666609
  },
  {
-  "Light": 898.75,
-  "Temperature": 21.42,
-  "Humidity": 65.7,
-  "t": 19.2,
-  "pwm": 82.36958333333334
+  "Light": 798.33,
+  "Temperature": 23.16,
+  "Humidity": 55.04,
+  "t": 913.4,
+  "pwm": 63.924999999999436
  },
  {
-  "Light": 903.33,
-  "Temperature": 21.43,
-  "Humidity": 65.7,
-  "t": 19.4,
-  "pwm": 82.27083333333333
+  "Light": 801.25,
+  "Temperature": 23.16,
+  "Humidity": 55.04,
+  "t": 913.6,
+  "pwm": 63.8679166666661
  },
  {
-  "Light": 899.17,
-  "Temperature": 21.43,
-  "Humidity": 65.55,
-  "t": 19.6,
-  "pwm": 82.34916666666669
+  "Light": 799.17,
+  "Temperature": 23.16,
+  "Humidity": 55.04,
+  "t": 913.8,
+  "pwm": 63.91166666666609
  },
  {
-  "Light": 899.58,
-  "Temperature": 21.42,
-  "Humidity": 65.7,
-  "t": 19.8,
-  "pwm": 82.33791666666666
+  "Light": 798.75,
+  "Temperature": 23.16,
+  "Humidity": 55.04,
+  "t": 914.0,
+  "pwm": 63.92374999999943
  },
  {
-  "Light": 897.5,
-  "Temperature": 21.42,
-  "Humidity": 65.7,
-  "t": 20.0,
-  "pwm": 82.39
+  "Light": 802.08,
+  "Temperature": 23.16,
+  "Humidity": 55.04,
+  "t": 914.2,
+  "pwm": 63.85624999999943
  },
  {
-  "Light": 903.33,
-  "Temperature": 21.42,
-  "Humidity": 65.55,
-  "t": 20.2,
-  "pwm": 82.27166666666665
+  "Light": 797.92,
+  "Temperature": 23.16,
+  "Humidity": 55.04,
+  "t": 914.4,
+  "pwm": 63.94208333333276
  },
  {
-  "Light": 902.08,
-  "Temperature": 21.42,
-  "Humidity": 65.55,
-  "t": 20.4,
-  "pwm": 82.28541666666666
+  "Light": 800.0,
+  "Temperature": 23.16,
+  "Humidity": 54.89,
+  "t": 914.6,
+  "pwm": 63.90249999999943
  },
  {
-  "Light": 897.5,
-  "Temperature": 21.41,
-  "Humidity": 65.55,
-  "t": 20.6,
-  "pwm": 82.37166666666666
+  "Light": 801.25,
+  "Temperature": 23.16,
+  "Humidity": 55.04,
+  "t": 914.8,
+  "pwm": 63.877916666666096
  },
  {
-  "Light": 902.08,
-  "Temperature": 21.43,
-  "Humidity": 65.55,
-  "t": 20.8,
-  "pwm": 82.27708333333332
+  "Light": 797.92,
+  "Temperature": 23.16,
+  "Humidity": 54.89,
+  "t": 915.0,
+  "pwm": 63.947083333332756
  },
  {
-  "Light": 899.58,
-  "Temperature": 21.42,
-  "Humidity": 65.55,
-  "t": 21.0,
-  "pwm": 82.3270833333333
+  "Light": 801.67,
+  "Temperature": 23.15,
+  "Humidity": 54.89,
+  "t": 915.2,
+  "pwm": 63.870833333332754
  },
  {
-  "Light": 899.58,
-  "Temperature": 21.42,
-  "Humidity": 65.55,
-  "t": 21.2,
-  "pwm": 82.32541666666664
+  "Light": 798.75,
+  "Temperature": 23.16,
+  "Humidity": 55.04,
+  "t": 915.4,
+  "pwm": 63.93208333333276
  },
  {
-  "Light": 897.5,
-  "Temperature": 21.42,
-  "Humidity": 65.55,
-  "t": 21.4,
-  "pwm": 82.37666666666664
+  "Light": 800.0,
+  "Temperature": 23.16,
+  "Humidity": 54.89,
+  "t": 915.6,
+  "pwm": 63.90749999999943
  },
  {
-  "Light": 903.75,
-  "Temperature": 21.42,
-  "Humidity": 65.55,
-  "t": 21.6,
-  "pwm": 82.24874999999997
+  "Light": 801.67,
+  "Temperature": 23.16,
+  "Humidity": 54.89,
+  "t": 915.8,
+  "pwm": 63.87166666666608
  },
  {
-  "Light": 901.67,
-  "Temperature": 21.42,
-  "Humidity": 65.55,
-  "t": 21.8,
-  "pwm": 82.27916666666665
+  "Light": 797.92,
+  "Temperature": 23.15,
+  "Humidity": 54.89,
+  "t": 916.0,
+  "pwm": 63.94791666666609
  },
  {
-  "Light": 898.33,
-  "Temperature": 21.42,
-  "Humidity": 65.55,
-  "t": 22.0,
-  "pwm": 82.3383333333333
+  "Light": 800.83,
+  "Temperature": 23.16,
+  "Humidity": 54.89,
+  "t": 916.2,
+  "pwm": 63.88999999999942
  },
  {
-  "Light": 897.92,
-  "Temperature": 21.42,
-  "Humidity": 65.55,
-  "t": 22.2,
-  "pwm": 82.35458333333332
+  "Light": 800.0,
+  "Temperature": 23.15,
+  "Humidity": 54.89,
+  "t": 916.4,
+  "pwm": 63.90833333333275
  },
  {
-  "Light": 900.42,
-  "Temperature": 21.42,
-  "Humidity": 65.55,
-  "t": 22.4,
-  "pwm": 82.31291666666667
+  "Light": 797.5,
+  "Temperature": 23.16,
+  "Humidity": 54.89,
+  "t": 916.6,
+  "pwm": 63.96416666666609
  },
  {
-  "Light": 900.0,
-  "Temperature": 21.43,
-  "Humidity": 65.55,
-  "t": 22.6,
-  "pwm": 82.32416666666666
+  "Light": 804.17,
+  "Temperature": 23.16,
+  "Humidity": 55.04,
+  "t": 916.8,
+  "pwm": 63.825833333332746
  },
  {
-  "Light": 897.92,
-  "Temperature": 21.43,
-  "Humidity": 65.55,
-  "t": 22.8,
-  "pwm": 82.37124999999999
+  "Light": 802.5,
+  "Temperature": 23.16,
+  "Humidity": 54.89,
+  "t": 917.0,
+  "pwm": 63.84416666666608
  },
  {
-  "Light": 903.75,
-  "Temperature": 21.43,
-  "Humidity": 65.7,
-  "t": 23.0,
-  "pwm": 82.24958333333333
+  "Light": 797.5,
+  "Temperature": 23.16,
+  "Humidity": 54.89,
+  "t": 917.2,
+  "pwm": 63.935833333332745
  },
  {
-  "Light": 901.67,
-  "Temperature": 21.42,
-  "Humidity": 65.55,
-  "t": 23.2,
-  "pwm": 82.27916666666667
+  "Light": 804.58,
+  "Temperature": 23.16,
+  "Humidity": 54.89,
+  "t": 917.4,
+  "pwm": 63.78291666666608
+ },
+ {
+  "Light": 800.0,
+  "Temperature": 23.16,
+  "Humidity": 54.75,
+  "t": 917.6,
+  "pwm": 63.86583333333275
+ },
+ {
+  "Light": 800.0,
+  "Temperature": 23.16,
+  "Humidity": 54.89,
+  "t": 917.8,
+  "pwm": 63.85666666666609
+ },
+ {
+  "Light": 800.0,
+  "Temperature": 23.15,
+  "Humidity": 54.89,
+  "t": 918.0,
+  "pwm": 63.85666666666609
+ },
+ {
+  "Light": 797.92,
+  "Temperature": 23.15,
+  "Humidity": 54.89,
+  "t": 918.2,
+  "pwm": 63.904583333332745
+ },
+ {
+  "Light": 800.0,
+  "Temperature": 23.15,
+  "Humidity": 54.89,
+  "t": 918.4,
+  "pwm": 63.869166666666075
+ },
+ {
+  "Light": 797.5,
+  "Temperature": 23.16,
+  "Humidity": 54.75,
+  "t": 918.6,
+  "pwm": 63.93083333333275
+ },
+ {
+  "Light": 802.08,
+  "Temperature": 23.16,
+  "Humidity": 54.89,
+  "t": 918.8,
+  "pwm": 63.84041666666609
+ },
+ {
+  "Light": 802.5,
+  "Temperature": 23.16,
+  "Humidity": 54.75,
+  "t": 919.0,
+  "pwm": 63.823333333332755
+ },
+ {
+  "Light": 797.08,
+  "Temperature": 23.15,
+  "Humidity": 54.89,
+  "t": 919.2,
+  "pwm": 63.92874999999942
+ },
+ {
+  "Light": 800.0,
+  "Temperature": 23.16,
+  "Humidity": 54.89,
+  "t": 919.4,
+  "pwm": 63.874166666666085
+ },
+ {
+  "Light": 800.0,
+  "Temperature": 23.16,
+  "Humidity": 54.75,
+  "t": 919.6,
+  "pwm": 63.87999999999942
+ },
+ {
+  "Light": 797.08,
+  "Temperature": 23.16,
+  "Humidity": 54.75,
+  "t": 919.8,
+  "pwm": 63.947083333332756
+ },
+ {
+  "Light": 802.5,
+  "Temperature": 23.15,
+  "Humidity": 54.89,
+  "t": 920.0,
+  "pwm": 63.83999999999943
+ },
+ {
+  "Light": 797.08,
+  "Temperature": 23.16,
+  "Humidity": 54.75,
+  "t": 920.2,
+  "pwm": 63.955416666666096
+ },
+ {
+  "Light": 800.0,
+  "Temperature": 23.16,
+  "Humidity": 54.75,
+  "t": 920.4,
+  "pwm": 63.90083333333276
+ },
+ {
+  "Light": 800.0,
+  "Temperature": 23.16,
+  "Humidity": 54.75,
+  "t": 920.6,
+  "pwm": 63.9066666666661
+ },
+ {
+  "Light": 797.08,
+  "Temperature": 23.17,
+  "Humidity": 54.6,
+  "t": 920.8,
+  "pwm": 63.973749999999434
+ },
+ {
+  "Light": 802.92,
+  "Temperature": 23.16,
+  "Humidity": 54.89,
+  "t": 921.0,
+  "pwm": 63.85708333333276
+ },
+ {
+  "Light": 797.08,
+  "Temperature": 23.16,
+  "Humidity": 54.89,
+  "t": 921.2,
+  "pwm": 63.97958333333277
+ },
+ {
+  "Light": 800.0,
+  "Temperature": 23.16,
+  "Humidity": 54.75,
+  "t": 921.4,
+  "pwm": 63.924166666666096
+ },
+ {
+  "Light": 803.33,
+  "Temperature": 23.16,
+  "Humidity": 54.75,
+  "t": 921.6,
+  "pwm": 63.85333333333276
+ },
+ {
+  "Light": 800.0,
+  "Temperature": 23.11,
+  "Humidity": 54.75,
+  "t": 921.8,
+  "pwm": 63.909999999999435
+ },
+ {
+  "Light": 800.0,
+  "Temperature": 23.16,
+  "Humidity": 54.75,
+  "t": 922.0,
+  "pwm": 63.90333333333277
+ },
+ {
+  "Light": 797.5,
+  "Temperature": 23.16,
+  "Humidity": 54.75,
+  "t": 922.2,
+  "pwm": 63.96083333333277
+ },
+ {
+  "Light": 802.5,
+  "Temperature": 23.16,
+  "Humidity": 54.89,
+  "t": 922.4,
+  "pwm": 63.86083333333277
+ },
+ {
+  "Light": 797.5,
+  "Temperature": 23.16,
+  "Humidity": 54.75,
+  "t": 922.6,
+  "pwm": 63.96583333333277
+ },
+ {
+  "Light": 800.0,
+  "Temperature": 23.16,
+  "Humidity": 54.75,
+  "t": 922.8,
+  "pwm": 63.91833333333277
+ },
+ {
+  "Light": 800.0,
+  "Temperature": 23.16,
+  "Humidity": 54.75,
+  "t": 923.0,
+  "pwm": 63.92333333333277
+ },
+ {
+  "Light": 798.75,
+  "Temperature": 23.15,
+  "Humidity": 54.75,
+  "t": 923.2,
+  "pwm": 63.95208333333276
+ },
+ {
+  "Light": 804.58,
+  "Temperature": 23.16,
+  "Humidity": 54.75,
+  "t": 923.4,
+  "pwm": 63.8254166666661
+ },
+ {
+  "Light": 797.5,
+  "Temperature": 23.16,
+  "Humidity": 54.75,
+  "t": 923.6,
+  "pwm": 63.96333333333276
+ },
+ {
+  "Light": 800.0,
+  "Temperature": 23.15,
+  "Humidity": 54.75,
+  "t": 923.8,
+  "pwm": 63.91166666666609
+ },
+ {
+  "Light": 800.0,
+  "Temperature": 23.15,
+  "Humidity": 54.6,
+  "t": 924.0,
+  "pwm": 63.916666666666096
+ },
+ {
+  "Light": 797.08,
+  "Temperature": 23.16,
+  "Humidity": 54.75,
+  "t": 924.2,
+  "pwm": 63.98374999999943
  }
 ]
