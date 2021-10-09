@@ -33,6 +33,9 @@ The aim of the project was to design and build an automated plant equipped with 
 
 # Web application screenshots
 
-![image](https://user-images.githubusercontent.com/86245727/136636554-41d000da-6087-4fe4-9e86-630ac6caa4b3.PNG)
+![image](https://user-images.githubusercontent.com/86245727/136658226-ab4ffd48-2a84-4cb7-b591-e4f64aad150b.png)
 
-![image](https://user-images.githubusercontent.com/86245727/136636705-54776036-8ee4-4334-8d68-0466c39f8849.png)
+![image](https://user-images.githubusercontent.com/86245727/136658227-de2aeec6-2a48-46f3-b6d3-ff696d2a94e0.png)
+
+![image](https://user-images.githubusercontent.com/86245727/136658229-57169c6d-c4a3-4364-a7b1-75fa73e15e6c.png)
+
